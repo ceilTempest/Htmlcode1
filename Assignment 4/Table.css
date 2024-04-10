@@ -1,0 +1,23 @@
+table { 
+	 border-collapse:collapse;
+	 empty-cells:hide;
+	 text-align:center;
+	 margin-left:400px;
+	 
+	 
+	 
+	
+}
+td {
+	padding:5px;
+}
+tr:hover:nth-child(even){color:red;}
+tr:nth-child(even){background-color:lightblue}
+tr:nth-child(odd){background-color:orange}
+
+tr:hover:nth-child(odd){color:rgb(20,200,90);
+	
+}
+h1 {
+	text-align:center;
+}

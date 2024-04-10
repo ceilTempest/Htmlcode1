@@ -1,0 +1,37 @@
+.box {
+	background-color:orange;
+	width:300px;
+	height:100px;
+	border:2px solid black;
+	display:flex;
+}
+	.box > div:nth-of-type(1){flex-grow:2}
+	.box > div:nth-of-type(2){flex-grow:2}
+	.box > div:nth-of-type(3){flex-grow:3}
+	.box > div:nth-of-type(4){flex-grow:3}
+	.box > div:nth-of-type(5){flex-grow:2}
+
+.A {
+	background-color:green;
+	
+}
+.B {
+	background-color:pink;
+	
+}
+.C {
+	background-color:purple;
+	
+}
+.D {
+	background-color:red;
+	
+}
+.E {
+	background-color:yellow;
+	
+}
+.F {
+	background-color:khaki;
+	
+}

@@ -1,0 +1,43 @@
+.a {
+	color:tomato;
+	text-align:left;
+}
+.b {
+	color:Yellow;
+	text-align:left;
+}
+.c {
+	color:orange;
+	text-align:left;
+}
+.d {
+	color:purple;
+	text-align:left;
+}
+.e {
+	color:white;
+	font-weight:bold;
+	text-align:left;
+}
+.f {
+	color:red;
+	font-weight: 500;
+	text-align:left;
+}
+.g {
+	color:black;
+	text-align:left;
+}
+
+a:visited {
+		color:olive;
+}
+a:hover {
+		color:red;
+}
+a:link {
+		color:yellow;
+}
+a:active {
+		color:blue;
+}

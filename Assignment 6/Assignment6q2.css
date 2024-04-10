@@ -1,0 +1,137 @@
+.flex-container {
+  display: flex;
+  flex-direction:column-reverse;
+  background-color: RGB(105,80,75);
+}
+
+.flex-container > div {
+  background-color:orange;
+  color: black;
+  width: 100px;
+  margin: 50px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.a{
+	display:flex;
+	flex-direction:row-reverse;
+	background-color:orange;
+}
+.a > div {
+	background-color:RGB(105,80,75);
+	color:black;
+	width:100px;
+	height:75px;
+	margin:10px;
+	text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.b{
+	display:flex;
+	flex-direction:column;
+	background-color:RGB(105,80,75);
+}
+.b > div {
+	background-color:orange;
+	color:black;
+	width:100px;
+	height:75px;
+	margin:10px;
+	text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.d {
+  display: flex;
+  flex-direction:row;
+  background-color:orange;
+}
+
+.d > div {
+  background-color:RGB(105,80,75);
+  color: black;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.c {
+  display: flex;
+  flex-wrap:wrap;
+  background-color:orange;
+}
+
+.c > div {
+  background-color:RGB(105,80,75);
+  color: black;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.e {
+  display: flex;
+  flex-wrap:nowrap;
+  background-color:orange;
+}
+
+.e > div {
+  background-color:RGB(105,80,75);
+  color: black;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.f {
+  display: flex;
+  flex-wrap:wrap-reverse;
+  background-color:orange;
+}
+
+.f > div {
+  background-color:RGB(105,80,75);
+  color: black;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.g{
+	display:flex;
+	flex-flow:row wrap-reverse;
+	background-color:RGB(80,50,100);
+}
+.g > div {
+	background-color:RGB(100,222,100);
+	width: 100px;
+	line-height:75px;
+    margin: 10px;
+    text-align: center;
+}
+h2 {
+	border:2px solid black;
+	background-color:orange;
+}
+
+/*   FOR g short hand for Flex-wrap and flex diection
+flex-flow: row nowrap;
+flex-flow: row-reverse nowrap;
+flex-flow: column nowrap;
+flex-flow: column-reverse nowrap;
+flex-flow: row wrap;
+flex-flow: row-reverse wrap;
+flex-flow: column wrap;
+flex-flow: column-reverse wrap;
+flex-flow: row wrap-reverse;
+flex-flow: row-reverse wrap-reverse;
+flex-flow: column wrap-reverse;
+flex-flow: column-reverse wrap-reverse;*/

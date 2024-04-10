@@ -1,0 +1,44 @@
+div {
+	border:solid black 2px;
+	
+	}
+.a>div {
+	width:5cm;
+	display:inline-block;
+	border:solid yellow 2px;
+	background-color:orange;
+}
+.b>div {
+	display:inline;
+	border:solid green 2px;
+	background-color:yellow;
+}
+.c>div {
+	display:block;
+	border:solid green 2px;
+	background-color:olive;
+	
+}
+.d {
+	padding-right:30px;
+	padding-left:30px;
+	display:flex;
+	border:solid orange 2px;
+	background-color:green;
+	
+	flex-direction:column-reverse;
+	/*flex-direction:row-reverse; for column-it goes down for rows goes to right*/
+}
+.e>div {
+	
+	padding:10px;
+	display:flexbox;
+	background-color:tomato;
+	border:solid green 2px;
+}
+#g1{
+	display:flexbox;
+	padding:10px;
+	border: 1px solid red;
+	
+}

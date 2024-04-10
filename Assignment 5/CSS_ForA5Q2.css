@@ -1,0 +1,69 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: RAVI;
+  animation-duration: 14s;
+}
+
+@keyframes RAVI {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:500px; top:0px;}
+  50%  {background-color:blue; left:500px; top:300px;}
+  75%  {background-color:green; left:0px; top:300px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+p:hover {
+	color : red;	
+	font-family:Fantasy;
+	}
+
+p:visited {
+		color:olive;
+	}
+p:active {
+		color:orange;
+	}
+h1 {
+	text-align:center;
+	font-size:50px;
+	animation-name:saru;
+	animation-duration:10s;
+}
+
+@keyframes saru 
+	{
+	from{color:red;}
+	to{color:green;}
+	
+  }
+img {
+	border:4px solid black;
+	float:right;
+	border-radius:500px;
+    height:200px;
+	
+}
+a {
+	margin-left:500px;
+	font-weight:bold;
+	font-size:20px;
+	font-family:monospace;
+}
+a:hover {
+	color:tomato;
+	font-size:50px;
+	font-weight:bold;
+}
+a:visited{
+	color:olive;
+}
+a:active{
+	color:green;
+	
+}
+a:link{
+	color:purple;
+}

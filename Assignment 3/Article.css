@@ -1,0 +1,21 @@
+h3 {margin-left:50px}
+h2 {margin-left:50px }
+p  {margin-left:190px;margin-right:190px}
+.detail{ width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;}
+  
+  .H1:hover {color:rgb(90,255,0)}
+  
+ 
+  
+  #PR::first-letter  {color:gray;font-size:80px;)}
+  #PR:hover::first-line{ color:rgb(20,200,90);}  
+  aside:nth-child (even) {color:white;}  
+
+
+ a:visited {color:red;} 
+ 
